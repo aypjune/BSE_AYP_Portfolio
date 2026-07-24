@@ -1,5 +1,5 @@
-# This is my project
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+# Raspberry Pi OCR Reader
+For my BlueStamp Engineering project, I am building an optical character recognition program using a Raspberry Pi, Python, and Tesseract OCR. The program takes an image, recognizes the words inside it, and converts them into usable text. One of my biggest accomplishments so far has been setting up the Raspberry Pi and successfully getting my program to read its first image.
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
@@ -9,7 +9,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| FirstName LastInitialOnly | School Name | Electrical Engineering | Incoming Senior
+| Arjun P. | Sierra High School | Artificial Intelligence and Data Science | Incoming Senior |
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
@@ -45,13 +45,13 @@ For your second milestone, explain what you've worked on since your previous mil
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2375c3KQWTU?start=15" title="First Milestone Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+For my first milestone, my goal was to fully set up my Raspberry Pi and get my OCR program to successfully read one clear image. I installed the software I needed, including Python, Tesseract OCR, Pillow, and pytesseract. I also created a virtual environment and wrote a Python program called `ocr.py`.
+
+My program opens an image, sends it through Tesseract, and prints the detected words in the Terminal. To test it, I created an image called `test.png` that said “HELLO ARJUN 123,” and my program recognized the text correctly.
+
+The biggest challenge was learning how to navigate the Raspberry Pi and use Terminal commands because most of it was new to me. Getting the correct output was my biggest accomplishment so far. For my next milestone, I plan to test different types of images and improve the program’s accuracy.
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
