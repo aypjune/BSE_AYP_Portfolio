@@ -31,15 +31,14 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cPd48QPIIis?si=DALLp8AdKnfyU24c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+For my second milestone, my goal was to finish the base version of my OCR project by setting up the Raspberry Pi camera and getting my OCR program to read a picture that I took myself. I connected the camera, took a picture of the word “DOG,” and used Tesseract OCR to recognize the text. After testing different settings, the program recognized the word correctly.
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+The biggest challenge was getting accurate results because Tesseract kept reading the image incorrectly. I improved the picture quality, adjusted the camera, and used a different Tesseract setting until it recognized the word correctly. Getting the camera and OCR working together was my biggest accomplishment for this milestone.
+
+For my next milestone, I plan to improve the program's accuracy, test it with different images, and start adding features beyond the base project.
+
 
 # First Milestone
 
@@ -75,10 +74,11 @@ Here's where you'll list the parts in your project. To add more rows, just copy 
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
 | **Part** | **Note** | **Price** | **Link** |
-|:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+|:--|:--|:--:|:--:|
+| Raspberry Pi 4 Starter Kit | Main computer that runs the OCR program. Includes the Raspberry Pi, power supply, case, heatsinks, and other accessories needed to start the project. | ~$90 | <a href="https://www.amazon.com/RasTech-Raspberry-Starter-Heatsink-Screwdriver/dp/B0C8LV6VNZ">Link</a> |
+| Arducam 5MP Camera Module | Captures images that are processed by the OCR program for text recognition. | ~$15 | <a href="https://www.amazon.com/Arducam-Raspberry-Camera-Module-1080P/dp/B07RWCGX5K">Link</a> |
+| Mini Speaker (3.5mm Audio Jack) | Outputs audio so the Raspberry Pi can read recognized text aloud in future milestones. | ~$10 | <a href="https://www.amazon.com/Mobile-Speaker-Compact-Adhesive-Installation/dp/B0D95ZYCW6">Link</a> |
+| Youmi Mini USB Microphone | Allows voice input so users can control the OCR system with spoken commands in future milestones. | ~$10 | Amazon Search: Youmi Mini USB 2.0 Microphone |
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
