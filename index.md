@@ -1,8 +1,8 @@
 # Raspberry Pi OCR Reader
 For my BlueStamp Engineering project, I am building an optical character recognition program using a Raspberry Pi, Python, and Tesseract OCR. The program takes an image, recognizes the words inside it, and converts them into usable text. One of my biggest accomplishments so far has been setting up the Raspberry Pi and successfully getting my program to read its first image.
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
+<!---You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions: -->
+```HTML
 <!--- This is an HTML comment in Markdown -->
 <!--- Anything between these symbols will not render on the published site -->
 ```
